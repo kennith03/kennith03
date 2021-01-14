@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+nav  ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    min-height: 10vh;
+    background-color: bisque;
+    padding: 1rem;
+    align-items: center;
+
+}
+
+
+.hero{
+    
+ background-color: burlywood;
+ min-height: 90vh;
+ background-image: url('/bugs\ bunny\ suit\ and\ tie.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position:center;
+ display: flex;
+ flex-direction: column;
+ align-items:center;
+ justify-content:center;
+}
+
+.hero h2{
+    text-align: center;
+    margin:2rem;
+    color: crimson;
+}
+
+.hero button{
+    padding: 1rem  2rem;
+
+    background-color: darkgoldenrod;
+    border: none;
+    border-radius: 5rem;
+    color:black;
+}
+
+
+
+.intro{
+    display: flex;
+   flex-wrap: wrap;
+   background-size: cover;
+   background-color: blanchedalmond;
+}
+
+.container {
+    display: flex;
+  align-items: center; 
+   justify-content: center;
+  
+    
+}
+/* .container_image{ */
+      /* width: 250px; */
+      
+    
+ /* } */
+.container_text{
+   background-color: brown;
+   
+     flex-grow: 1;
+ }
+
+ .boxes{
+     display: flex;
+     align-items: center;
+     justify-content: stretch;
+ }
+
+ .boxes div{
+     min-height: 30rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     
+ }
+    
+ .box1{
+     background-color: blueviolet;
+     flex-grow: 1;
+    
+ }
+
+
+ .box1 button{
+    border-radius: 12px;
+    
+}
+
+
+ .box2{
+    background-color: yellow;
+    flex-grow: 1;
+ }
+
+ .box2 button{
+     border-radius: 12px;
+ }
+
+
+.box3{
+    background-color: red;
+    flex-grow: 1;
+   
+}
+
+.box3 button{
+    border-radius: 12px;
+}
+
+
+  
